@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="15">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="3"
+        android:text="Student Name" />
+
+    <FrameLayout
+        android:id="@+id/flMonth1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth10"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth11"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/flMonth12"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

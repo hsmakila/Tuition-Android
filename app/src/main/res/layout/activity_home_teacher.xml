@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="5"
+    tools:context=".Activities.Home_Pages.Home_Student">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/butAddTeacher"
+            style="@style/HomeButton"
+            android:text="Add Teacher" />
+
+        <Button
+            android:id="@+id/butSearchTeacher"
+            style="@style/HomeButton"
+            android:text="Search Teacher" />
+
+        <Button
+            android:id="@+id/butViewAllTeachers"
+            style="@style/HomeButton"
+            android:text="View All Teachers" />
+
+        <Button
+            android:id="@+id/butAssignClassForTeacher"
+            style="@style/HomeButton"
+            android:text="Assign Class to Teacher" />
+
+        <Button
+            android:id="@+id/butViewClassesByTeacher"
+            style="@style/HomeButton"
+            android:text="View Classes by Teacher" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

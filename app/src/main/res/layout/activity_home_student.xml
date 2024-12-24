@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="5"
+    tools:context=".Activities.Home_Pages.Home_Student">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/butAddStudent"
+            style="@style/HomeButton"
+            android:text="Add Student" />
+
+        <Button
+            android:id="@+id/butSearchStudent"
+            style="@style/HomeButton"
+            android:text="Search Student" />
+
+        <Button
+            android:id="@+id/butViewAllStudents"
+            style="@style/HomeButton"
+            android:text="View All Students" />
+
+        <Button
+            android:id="@+id/butAssignClassForStudent"
+            style="@style/HomeButton"
+            android:text="Assign Class to Student" />
+
+        <Button
+            android:id="@+id/butViewClassesByStudent"
+            style="@style/HomeButton"
+            android:text="View Classes by Student" />
+
+        <Button
+            android:id="@+id/butGenerateQR"
+            style="@style/HomeButton"
+            android:text="Generate QR" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

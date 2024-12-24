@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "723042929654",
+    "firebase_url": "https://tution-ad54a.firebaseio.com",
+    "project_id": "tution-ad54a",
+    "storage_bucket": "tution-ad54a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723042929654:android:b4eb2b878e41b329",
+        "android_client_info": {
+          "package_name": "net.tution.thilini.tution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723042929654-25fa6gkq52tajftrv7mccq35rlq5f904.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.tution.thilini.tution",
+            "certificate_hash": "1f06917a9266876888ed571c308e607fe4be2ceb"
+          }
+        },
+        {
+          "client_id": "723042929654-167pshm5oc8rk38jqfs61l55qpsa7qnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaHPAJqPj2u6TpZUaqi0sAyU4Wc-vQeQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723042929654-167pshm5oc8rk38jqfs61l55qpsa7qnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

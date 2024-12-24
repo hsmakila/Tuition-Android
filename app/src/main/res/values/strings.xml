@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TUTION.NET</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="telephone">Telephone</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="gender">Gender</string>
+    <string name="dob">DOB</string>
+    <string name="comment">Comment</string>
+    <string name="parent_name">Parent Name</string>
+    <string name="grade">Grade</string>
+    <string name="school">School</string>
+    <string name="title">Title</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="teacher">Teacher</string>
+    <string name="class_grade">Class/Grade</string>
+    <string name="class_type">Class Type</string>
+    <string name="subject">Subject</string>
+    <string name="fee_amount">Fee Amount</string>
+    <string name="class_day">Class Day</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="ending_time">Ending Time</string>
+
+    <string-array name="array_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="array_title">
+        <item>Mr</item>
+        <item>Miss</item>
+        <item>Mrs</item>
+    </string-array>
+
+    <string-array name="array_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="array_class_types">
+        <item>Theory</item>
+        <item>Practical</item>
+    </string-array>
+
+
+</resources>
